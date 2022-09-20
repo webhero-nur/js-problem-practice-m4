@@ -18,6 +18,9 @@ function gradeCalculate(marks) {
     else if (marks >= 90) {
         grade = 'A+';
     }
+    else {
+        return 'error!!!'
+    }
 
     return grade;
 }
